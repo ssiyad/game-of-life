@@ -23,6 +23,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
+import { useWindowSize } from '@vueuse/core';
 import Cell from './Cell.vue';
 import Menu from './Menu.vue';
 
